@@ -21,3 +21,10 @@ img{
     margin: 10px auto;
     height: 200px;
 }
+
+input{
+    width: 300px;
+    font-size: 1.25em;
+    padding: 3px;
+    border: 2px solid black;
+}
