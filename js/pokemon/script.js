@@ -14,7 +14,7 @@ function fetchPokemon(){
             document.getElementById("pokepic").src = res.sprites.front_default;
         })
         .catch(err => {
-            console.log("it didn't work");
+            alert("it didn't work");
             console.log(err);
         })
     // var response = fetch("https://pokeapi.co/api/v2/pokemon/"+input.value);
