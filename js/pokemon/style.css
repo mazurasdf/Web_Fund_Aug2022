@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+div{
+    margin: 20px auto;
+    width: 20%;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 1.5em;
+}
+
+img{
+    display: block;
+    margin: 10px auto;
+    height: 200px;
+}
