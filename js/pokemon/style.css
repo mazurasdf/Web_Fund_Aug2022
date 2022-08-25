@@ -7,11 +7,13 @@ div{
     margin: 20px auto;
     width: 20%;
 }
-
 button{
     width: 100px;
     height: 50px;
     font-size: 1.5em;
+    border-radius: 10px;
+    background-color: rgb(57, 94, 95);
+    color: white;
 }
 
 img{

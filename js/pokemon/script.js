@@ -2,6 +2,7 @@ function fetchPokemon(){
     var input = document.getElementById("input");
     console.log(input.value);
 
+    //THIS IS WHERE THE API CALL HAPPENS
     // promises exist PENDING, RESOLVED, REJECTED
     fetch("https://pokeapi.co/api/v2/pokemon/"+input.value)
         .then(res => res.json())
